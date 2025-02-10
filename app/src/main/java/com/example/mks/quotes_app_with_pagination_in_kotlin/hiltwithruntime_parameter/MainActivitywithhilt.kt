@@ -1,5 +1,6 @@
 package com.example.mks.quotes_app_with_pagination_in_kotlin.hiltwithruntime_parameter
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -20,6 +21,7 @@ class MainActivitywithhilt : AppCompatActivity() {
     @Inject
     lateinit var assestedinterface :MainViewModel.Assestedviewmodel
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
