@@ -1,5 +1,6 @@
 package com.example.mks.quotes_app_with_pagination_in_kotlin.presentation.adapter
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -25,6 +26,7 @@ class Imageadapter(private val context: Context,private val imagesInterface: Ima
 
     }
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onBindViewHolder(holder: myholder, position: Int) {
 
         val data = getItem(position)
